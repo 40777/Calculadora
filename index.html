@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="styles.css"> <!-- integraçãoi do css no html. --> 
+</head>
+<body>
+    <div class="container">
+        <div class="result">0</div>
+            <div class="buttons">
+                <!-- seting buttons by colluns -->
+                <div class="line1">
+                    <button class="item item1 restart" id="restart" value="AC">AC</button>
+                    <button class="item item1 negativo" id="negativo" value="+/-">+/-</button>
+                    <button class="item persent porcento" id="porcento" value="%">%</button>
+                    <button class="item item3 dividido" id="dividido" value="/">÷</button>
+                </div>
+                <div class="line1" >
+                    <button class="item item numbers" id="sete" value="7">7</button>
+                    <button class="item item numbers" id="eight" value="8">8</button>
+                    <button class="item item numbers" id="nine" value="9">9</button>
+                    <button class="item item3 vezes" id="Multiplication" value="x">x</button>
+                </div>
+                <div class="line1">
+                    <button class="item item numbers" id="four" value="4">4</button>
+                    <button class="item item numbers" id="five" value="5">5</button>
+                    <button class="item item numbers" id="six" value="6">6</button>
+                    <button class="item item3 subtract" id="less" value="-">-</button>
+                </div>    
+                <div class="line1">
+                    <button class="item item numbers" id="one" value="1">1</button>
+                    <button class="item item numbers" id="two" value="2">2</button>
+                    <button class="item item numbers" id="three" value="3">3</button>
+                    <button class="item item3 sum" id="sum" value="+">+</button>
+                </div>
+                <div class="line1">
+                    <button class="item zero" class="item item3 sum" id="zero" value="0">0</button>
+                    <button class="item comma" class="item item3 sum" id="comma" value=",">,</button>
+                    <button class="item item3 equal" class="item item3 sum" id="equal" value="=">=</button>
+                </div>
+
+            </div>
+    </div>
+
+     <!-- integraçãoi do JS no html. --> 
+    <script src="index.js"></script> 
+</body>
+</html>
